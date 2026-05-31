@@ -1,0 +1,27 @@
+# Compiled output
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.eclipse
+.classpath
+.project
+.settings/
+nbproject/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Données locales (générées à l'exécution)
+data/
+
+# Fichiers temporaires
+*.tmp
+*.bak
