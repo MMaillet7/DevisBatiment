@@ -13,7 +13,6 @@ sans FXML (vues construites entierement en Java).
 - [Lancer le projet](#lancer-le-projet)
 - [Architecture MVC](#architecture-mvc)
 - [Format du catalogue](#format-du-catalogue)
-- [Persistance](#persistance)
 - [A quoi servent les dossiers test et resources ?](#a-quoi-servent-les-dossiers-test-et-resources)
 
 ---
@@ -146,14 +145,6 @@ idRevetement;designation;pourMur(0/1);pourSol(0/1);pourPlafond(0/1);prixUnitaire
 
 Les menus deroulants de revetement filtrent automatiquement les entrees
 selon leur applicabilite (mur, sol ou plafond).
-
----
-
-## Persistance
-
-Les projets sont sauvegardes en **JSON** (`.json`) via Jackson.
-Le chemin du catalogue est memorise dans le JSON et rechargé automatiquement
-a l'ouverture du projet.
 
 ---
 
